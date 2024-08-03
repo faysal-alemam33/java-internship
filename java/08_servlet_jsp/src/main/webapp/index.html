@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculate Age</title>
+</head>
+<body>
+    <h2>Calculate Age</h2>
+    <form action="calculateAge" method="post">
+        <label for="dob">Date of birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+        <label for="currentDate">Age at the date of:</label>
+        <input type="date" id="currentDate" name="currentDate" required>
+        <br><br>
+        <input type="submit" value="Calculate">
+    </form>
+    <div>
+        <h3>Result</h3>
+        <div id="result"></div>
+    </div>
+</body>
+</html>
